@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+span{
+    font-size: 65px;
+    background: linear-gradient(90deg, #FF75C3 0%, #FFA647 20%, #FFE83F 40%, #9FFF5B 60%, #70E2FF 80%, #CD93FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box{
+    background: radial-gradient(52.5% 100% at 50% 0%, #474851 0%, #191A22 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
